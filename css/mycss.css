@@ -1,0 +1,132 @@
+a {
+    text-decoration: none;
+}
+body{
+    background-color: hsla(0, 0%, 13%, 1);
+    color: hsla(0, 0%, 75%, 1);
+    font-family: 'Ubuntu', sans-serif;
+    text-align:center;
+}
+h1{
+    font-size: 3.5vmax;
+    /* http://line25.com/articles/using-css-text-shadow-to-create-cool-text-effects */
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de,
+    0 0 100px #ff00de, 0 0 150px #ff00de;
+}
+footer {
+    clear:both;
+    text-align:center;
+}
+
+#dealerlogo{
+    font-size: 4vmax;
+    margin-bottom: 0;
+    text-align: right;
+    margin-right: 3%;
+}
+#playerlogo{
+    font-size: 4vmax;
+    margin-top: 0;
+    text-align: left;
+}
+
+.scored{
+    margin-top: 0;
+    text-align: right;
+    margin-right: 3%;
+}
+
+.scorep{
+    margin-bottom: 0;
+    text-align: left;
+
+}
+
+.areadejogo{
+    background-color: hsla(112, 77%, 22%, 1);
+    color: hsla(0, 0%, 75%, 1);
+
+}
+
+#separator{
+    background-color: hsla(0, 0%, 13%, 1);
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-align-items: center;
+    align-items: center ;
+}
+#flex-cards1{
+    -webkit-flex: 2;
+    flex: 2;
+    text-align: left;
+
+}
+#flex-cards2{
+    -webkit-flex: 2;
+    flex: 2;
+    text-align: right;
+
+}
+.flex-name{
+    -webkit-flex: 1;
+    flex: 1;
+    text-align: right;
+}
+
+.flex-container-center {
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-align-items: center;
+    align-items: center ;
+}
+
+.flex-center{
+    -webkit-flex: 1;
+    flex: 1;
+    text-align: center;
+}
+.flex-center-text{
+    -webkit-flex: 2;
+    flex: 2;
+    text-align: center;
+}
+
+.blink {
+    -webkit-animation: blink 1s step-end infinite;
+    -moz-animation: blink 1s step-end infinite;
+    -o-animation: blink 1s step-end infinite;
+    animation: blink 1s step-end infinite;
+    color: hsla(334, 100%, 50%, 1);
+    font-size: 2vmax;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@-webkit-keyframes blink {
+    67% { opacity: 0 }
+}
+
+@-moz-keyframes blink {
+    67% { opacity: 0 }
+}
+
+@-o-keyframes blink {
+    67% { opacity: 0 }
+}
+
+@keyframes blink {
+    67% { opacity: 0 }
+}
